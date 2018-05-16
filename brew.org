@@ -1,0 +1,72 @@
+* `brew` packages
+  Packages installed via `brew install`, dependencies package omitted for
+  brevity.  
+  
+  #+begin_example
+  ansible
+  autoconf
+  boost
+  cairo
+  cscope
+  ctags
+  erlang
+  fontconfig
+  freetype
+  fzf
+  git
+  lftp
+  kubernetes-cli
+  lua
+  meson
+  ninja
+  node
+  pandoc
+  pango
+  pkg-config
+  plantuml
+  poppler
+  pyenv
+  python
+  python3
+  ripgrep
+  sqlite
+  ssh-copy-id
+  tig
+  tmux
+  tree
+  unrar
+  vim
+  w3m
+  zathura
+  zathura-pdf-poppler
+  zsh
+  zsh-completions
+  #+end_example
+
+* `brew cask` pakcages 
+  Packages installed via `brew cask install`, distributed in binary form.
+
+  #+begin_example
+  cheatsheet
+  dia
+  docker
+  emacs
+  firefox
+  font-source-code-pro
+  google-chrome
+  iterm2
+  kdiff3
+  keka
+  libreoffice
+  mactex
+  macvim
+  qlcolorcode
+  qlmarkdown
+  qlprettypatch
+  quicklook-json
+  shadowsocks-ng
+  vlc
+  vnc-viewer
+  xquartz
+
+  #+end_example
