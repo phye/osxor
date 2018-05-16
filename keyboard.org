@@ -1,0 +1,35 @@
+* External Keyboard Setup
+  For my filco keyboard, the first thing to do when connecting to macOS is to
+  switch *win* (*option* in macOS) key with *alt* (*Command* in macOS), so that
+  the *alt* key, which is easier to be typed with big thumb, is mapped to the
+  most frequent used *Command* key in macOS. 
+
+  The switch can be achieved via: 
+
+  #+begin_example
+  System Preferences => Keyboard => Modifier Keys
+  #+end_example
+
+  Note that usually I only switched the key pairs for my left hand, as I *almost
+  never* use the right hand sided *alt* and *win*.
+
+* ITerm 2 Shortcut Configuration
+  ITerm 2 is, in my opinion, the best terminal emulator in macOS. I've been
+  using it frequently day to day for more than 5 years, hence the shortcut
+  settings in Iterm 2 must be friendly to my hands, so that I will not feel any
+  incomfortableness even after long time. 
+
+  As I always use ITerm with tmux, and that I've rebinded the prefix of tmux to
+  "M-w" (easier to type and must override the default "Close Window" behavior in
+  macOS, as I always want ITerm to be open), some hacks must be performed
+  against ITerm 2 shortcuts config.
+
+  To achieve the above config, navigate via:
+
+  #+begin_example
+  ITerm 2 => Preferences => Keys => Key Mappings => + 
+
+    In Keyboard Shortcut, type "M+w"
+    In Action, choose "Send escape sequence", 
+    In the newly appeared "ESC+" textbox, enter "w"
+  #+end_example
