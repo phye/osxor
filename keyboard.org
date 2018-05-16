@@ -13,6 +13,10 @@
   Note that usually I only switched the key pairs for my left hand, as I *almost
   never* use the right hand sided *alt* and *win*.
 
+  NOTE: Once this step is finished, for the external keyboard, *WIN* is
+  *option*, *Alt* is *Command*, the external keyboard is *exactly* the same as
+  the internal keyboard. 
+
 * ITerm 2 Shortcut Configuration
   ITerm 2 is, in my opinion, the best terminal emulator in macOS. I've been
   using it frequently day to day for more than 5 years, hence the shortcut
@@ -33,3 +37,17 @@
     In Action, choose "Send escape sequence", 
     In the newly appeared "ESC+" textbox, enter "w"
   #+end_example
+
+  Now I can bind "M-w" to prefix in tmux.
+
+* Emacs Meta Option change in macOS
+  In Emacs for OS X, configure the below two lines for using *Command* as *meta*
+  key, and *Option* as *super* key 
+
+  #+begin_src lisp
+  ;; {{ macOS
+  (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier 'super)
+  ;; }}
+
+  #+end_src
